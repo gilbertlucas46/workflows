@@ -44,7 +44,8 @@ gulp.task('compass', function() {
     .pipe(connect.reload())
 });
 
-gulp.task('watch', function() {
+
+gulp.task('watch', function () {
   gulp.watch(coffeeSources, ['coffee']);
   gulp.watch(jsSources, ['js']);
   gulp.watch('components/sass/*.scss', ['compass']);
@@ -69,4 +70,25 @@ gulp.task('json', function() {
     .pipe(connect.reload())
 });
 
-gulp.task('default', ['html', 'json', 'coffee', 'js', 'compass', 'connect', 'watch']);
+
+   gulp.watch(jsonSources, ['json']);
+}); 
+
+gulp.task('connect', function(){
+  connect.server({
+    root: 'builds/development/',
+    livereload: true
+  });
+});
+
+gulp.task('html', function() {
+  gulp.src(htmlSources)
+   .pipe(connect.reload())
+})
+
+gulp.task('json', function() {
+  gulp.src(jsonSources)
+   .pipe(connect.reload())
+})
+
+gulp.task('default', ['html', 'json', 'coffee', 'js',  'compass', 'connect', 'watch'] );
