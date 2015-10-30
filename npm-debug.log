@@ -1,0 +1,107 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp-imagemin-pngcrush' ]
+2 info using npm@2.14.3
+3 info using node@v4.1.0
+4 verbose install initial load of C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\package.json
+5 warn package.json workflows@0.0.1 No license field.
+6 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-browserify\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-coffee\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-compass\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-concat\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-connect\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-if\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-imagemin\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-jsonminify\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-livereload\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-minify-html\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-ruby-sass\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-uglify\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\gulp-util\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\imagemin-pngcrush\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\jquery\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\mustache\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\node_modules\tiny-lr\package.json
+24 info package.json gulp-coffee@2.3.1 No license field.
+25 info package.json jquery@2.1.4 No license field.
+26 verbose readDependencies loading dependencies from C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows\package.json
+27 silly cache add args [ 'gulp-imagemin-pngcrush', null ]
+28 verbose cache add spec gulp-imagemin-pngcrush
+29 silly cache add parsed spec Result {
+29 silly cache add   raw: 'gulp-imagemin-pngcrush',
+29 silly cache add   scope: null,
+29 silly cache add   name: 'gulp-imagemin-pngcrush',
+29 silly cache add   rawSpec: '',
+29 silly cache add   spec: '*',
+29 silly cache add   type: 'range' }
+30 silly addNamed gulp-imagemin-pngcrush@*
+31 verbose addNamed "*" is a valid semver range for gulp-imagemin-pngcrush
+32 silly addNameRange { name: 'gulp-imagemin-pngcrush', range: '*', hasData: false }
+33 silly mapToRegistry name gulp-imagemin-pngcrush
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/gulp-imagemin-pngcrush
+37 verbose addNameRange registry:https://registry.npmjs.org/gulp-imagemin-pngcrush not in flight; fetching
+38 verbose request uri https://registry.npmjs.org/gulp-imagemin-pngcrush
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 11:33:29 AM
+41 verbose request id 0a4f0a468dd9639b
+42 http request GET https://registry.npmjs.org/gulp-imagemin-pngcrush
+43 http 404 https://registry.npmjs.org/gulp-imagemin-pngcrush
+44 verbose headers { 'content-type': 'application/json',
+44 verbose headers   'cache-control': 'max-age=0',
+44 verbose headers   'content-length': '2',
+44 verbose headers   'accept-ranges': 'bytes',
+44 verbose headers   date: 'Fri, 30 Oct 2015 03:33:33 GMT',
+44 verbose headers   via: '1.1 varnish',
+44 verbose headers   age: '0',
+44 verbose headers   connection: 'keep-alive',
+44 verbose headers   'x-served-by': 'cache-lax1435-LAX',
+44 verbose headers   'x-cache': 'MISS',
+44 verbose headers   'x-cache-hits': '0',
+44 verbose headers   'x-timer': 'S1446176013.331617,VS0,VE77' }
+45 silly get cb [ 404,
+45 silly get   { 'content-type': 'application/json',
+45 silly get     'cache-control': 'max-age=0',
+45 silly get     'content-length': '2',
+45 silly get     'accept-ranges': 'bytes',
+45 silly get     date: 'Fri, 30 Oct 2015 03:33:33 GMT',
+45 silly get     via: '1.1 varnish',
+45 silly get     age: '0',
+45 silly get     connection: 'keep-alive',
+45 silly get     'x-served-by': 'cache-lax1435-LAX',
+45 silly get     'x-cache': 'MISS',
+45 silly get     'x-cache-hits': '0',
+45 silly get     'x-timer': 'S1446176013.331617,VS0,VE77' } ]
+46 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/gulp-imagemin-pngcrush
+46 verbose stack     at makeError (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:263:12)
+46 verbose stack     at CachingRegistryClient.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:241:14)
+46 verbose stack     at Request._callback (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:171:14)
+46 verbose stack     at Request.self.callback (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+46 verbose stack     at emitTwo (events.js:87:13)
+46 verbose stack     at Request.emit (events.js:172:7)
+46 verbose stack     at Request.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1073:14)
+46 verbose stack     at emitOne (events.js:82:20)
+46 verbose stack     at Request.emit (events.js:169:7)
+46 verbose stack     at IncomingMessage.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1019:12)
+47 verbose statusCode 404
+48 verbose pkgid gulp-imagemin-pngcrush
+49 verbose cwd C:\Users\gilbert\Documents\tutorials\Web Project Workflows with Gulp.js, Git, and Browserify {AceMerlin}\Exercise Files\workflows
+50 error Windows_NT 10.0.10240
+51 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "gulp-imagemin-pngcrush"
+52 error node v4.1.0
+53 error npm  v2.14.3
+54 error code E404
+55 error 404 Registry returned 404 for GET on https://registry.npmjs.org/gulp-imagemin-pngcrush
+55 error 404
+55 error 404 'gulp-imagemin-pngcrush' is not in the npm registry.
+55 error 404 You should bug the author to publish it (or use the name yourself!)
+55 error 404 It was specified as a dependency of 'workflows'
+55 error 404
+55 error 404 Note that you can also install from a
+55 error 404 tarball, folder, http url, or git url.
+56 verbose exit [ 1, true ]
